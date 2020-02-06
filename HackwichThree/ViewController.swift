@@ -17,6 +17,13 @@ class ViewController: UIViewController
     var firstString = "The background will turn to blue"
     var secondString = "The background will turn to green"
     
+    override func viewDidLoad()
+    {
+        
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+    }
+
     @IBAction func ChangeColorButtonPressed(_ sender: Any)
     {
         if firstString == "The background color will turn red"
@@ -28,15 +35,6 @@ class ViewController: UIViewController
             self.view.backgroundColor = UIColor.blue
         }
     }
-    
-    
-    override func viewDidLoad()
-    {
-        
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
 
 }
 
