@@ -8,9 +8,31 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
+class ViewController: UIViewController
+{
+     // Declaire variables here:
+    
+    
+    //  PART 3:
+    var firstString = "The background will turn to blue"
+    var secondString = "The background will turn to green"
+    
+    @IBAction func ChangeColorButtonPressed(_ sender: Any)
+    {
+        if firstString == "The background color will turn red"
+        {
+            self.view.backgroundColor = UIColor.red
+        }
+        else
+        {
+            self.view.backgroundColor = UIColor.blue
+        }
+    }
+    
+    
+    override func viewDidLoad()
+    {
+        
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
