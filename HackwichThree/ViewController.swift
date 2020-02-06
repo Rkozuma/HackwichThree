@@ -23,6 +23,8 @@ class ViewController: UIViewController
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    // Start of button action
 
     @IBAction func ChangeColorButtonPressed(_ sender: Any)
     {
@@ -35,6 +37,10 @@ class ViewController: UIViewController
             self.view.backgroundColor = UIColor.blue
         }
     }
-
+    
+    // End of button action
+    
+    
+    
 }
 
