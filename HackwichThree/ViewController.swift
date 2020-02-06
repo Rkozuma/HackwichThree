@@ -47,10 +47,11 @@ class ViewController: UIViewController
     
     // End of button action
     
+    
     // PROBLEM SET 2:
     
-    var thirdString = "Hello, world."
-    var fourthString = "Hello, world."
+    var thirdString = "Hello, world!"
+    var fourthString = "Hello, world!"
     @IBOutlet weak var GreenLabel: UILabel!
     
     
