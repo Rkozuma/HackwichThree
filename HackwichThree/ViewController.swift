@@ -63,6 +63,10 @@ class ViewController: UIViewController
             self.GreenLabel.text = "Green"
             print("I completed both problem sets")
         }
+        else
+        {
+            self.GreenLabel.text = "Not green?" 
+        }
     }
     
     
